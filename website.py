@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 #Routes
-@app.route('https://megha395.github.io/')
+@app.route('megha395.github.io/')
 def index():
     return render_template('index.html')
 
