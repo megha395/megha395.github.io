@@ -3,12 +3,483 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Megha Kumari - AI/ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome</h1>
-    <p>This is my homepage.</p>
-    <p><a href="templates/about.html">About Me</a></p>
-    <p><a href="templates/contact.html">Contact Me</a></p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MK</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Megha Kumari</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text"></span>
+                    </h2>
+                    <p class="hero-description">
+                        Results-oriented AI/ML professional with hands-on experience in developing scalable, real-world solutions across cybersecurity and geospatial analytics.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                        <a href="#" class="btn btn--outline">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <span class="stat-number" data-count="3">0</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="15">0</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Passionate about leveraging classical and quantum machine learning to solve complex problems. Proven leader in cross-functional teams, delivering high-impact solutions for government and enterprise projects.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML Expertise</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-atom"></i>
+                            <span>Quantum Computing</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Cybersecurity</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-count="14">0</h3>
+                        <p class="stat-label">Countries Trained</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-count="4">0</h3>
+                        <p class="stat-label">Team Members Led</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-count="96">0</h3>
+                        <p class="stat-label">GATE Percentile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Senior Project Engineer</h3>
+                            <span class="company">CDAC, Mohali</span>
+                            <span class="duration">Nov 2024 – Present</span>
+                        </div>
+                        <p class="timeline-description">Led a team of 4 to develop a Mineral Prospectivity Analysis (MPA) system for Geological Survey of India using ML and quantum models</p>
+                        <ul class="achievement-list">
+                            <li>Enabled remote identification of mineral-rich zones from geospatial data, reducing field drilling costs</li>
+                            <li>Delivered an interactive, MongoDB-powered dashboard with predictive visualizations</li>
+                            <li>Implemented Random Forest, Quantum SVM, and Quantum PCA models</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Quantum ML</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Knowledge Associate</h3>
+                            <span class="company">CDAC, Mohali</span>
+                            <span class="duration">Aug 2021 – Oct 2024</span>
+                        </div>
+                        <p class="timeline-description">Developed AI-driven solutions for cybersecurity and IoT device detection</p>
+                        <ul class="achievement-list">
+                            <li>Developed AI-driven alert correlation model using NLP and deep learning to reduce false positives</li>
+                            <li>Processed billions of log entries with Python and Elasticsearch</li>
+                            <li>Built Automatic IoT Device Detection module for large-scale HTTP response analysis</li>
+                            <li>Developed automatic asset discovery tool to map network-connected devices</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Elasticsearch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="project-title">Mineral Prospectivity Analysis</h3>
+                    <p class="project-description">ML/Quantum computing system for geospatial mineral detection using advanced algorithms</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Quantum ML</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Cybersecurity">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="project-title">Alert Correlation Model</h3>
+                    <p class="project-description">NLP and deep learning system for cybersecurity alert reduction and attack path identification</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Deep Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="IoT">
+                    <div class="project-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="project-title">IoT Device Detection</h3>
+                    <p class="project-description">ML-based HTTP fingerprinting system for large-scale device classification</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">HTTP Analysis</span>
+                        <span class="tech-tag">Classification</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Research">
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="project-title">Intelligent Language Model</h3>
+                    <p class="project-description">Automated reasoning-based math problem solver with visual representation</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Visual Processing</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Research">
+                    <div class="project-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="project-title">Neighbor Discovery using GCN</h3>
+                    <p class="project-description">Binary classification system using Graph Convolutional Networks</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Graph Neural Networks</span>
+                        <span class="tech-tag">Classification</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Security">
+                    <div class="project-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="project-title">Automatic Asset Discovery</h3>
+                    <p class="project-description">Automated network asset mapping tool for organizational security</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Network Analysis</span>
+                        <span class="tech-tag">Asset Management</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-robot"></i>
+                        AI/ML
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Artificial Intelligence</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Deep Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Quantum Computing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Elasticsearch</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Frameworks
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flask</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Achievements -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="education-content">
+                <div class="education-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-list">
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-details">
+                                <h3>M.Tech — Artificial Intelligence</h3>
+                                <p class="institution">IIT Jodhpur</p>
+                                <p class="duration">2019–2021</p>
+                                <p class="gpa">7.6 CGPA</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-details">
+                                <h3>B.Tech — Electrical Engineering</h3>
+                                <p class="institution">GEC Bilaspur</p>
+                                <p class="duration">2013–2017</p>
+                                <p class="gpa">8.9 CGPA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievements-section">
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3>GATE 2019</h3>
+                            <p>96.14 percentile</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <h3>3rd Rank in B.E.</h3>
+                            <p>Electrical Engineering</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h3>Data Science Training</h3>
+                            <p>14+ countries (MEA, Govt. of India)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Ready to collaborate on cutting-edge AI/ML projects or discuss opportunities in quantum computing and data science.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>megha240397@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mohali, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/megha-kumari" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/megha395" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Megha Kumari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
