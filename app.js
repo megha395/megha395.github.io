@@ -16,12 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
 function initTypingAnimation() {
     const typingElement = document.querySelector('.typing-text');
     const roles = [
-        'AI/ML Engineer',
-        'Quantum Computing Expert',
-        'Data Scientist',
-        'Cybersecurity Specialist',
-        'Project Leader'
-    ];
+  "Applied Machine Learning Engineer",
+  "NLP & Transformer-based Systems",
+  "Production ML & Backend APIs"
+];
     
     let roleIndex = 0;
     let charIndex = 0;
